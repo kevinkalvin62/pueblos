@@ -6,10 +6,30 @@
   } 
   body{
     background-image: url(img/peublos/Tlaxco/ft.jpg);
-    background-color: lightblue;
   
   }
 
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  footer .credits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  footer .credits div {
+    margin: 10px;
+  }
+  footer .credits img {
+    max-width: 100px;
+    height: auto;
+  }
+  
 
   .banner img {
     border: 5px solid black;
@@ -34,9 +54,9 @@
   #txt{
     border: 5px solid ;
     padding-left: 50pt;
-    padding: 50pt;
     background: linear-gradient(90deg, rgba(231,10,10,1) 0%, rgba(248,242,10,1) 25%, rgba(16,234,189,1) 63%, rgba(253,131,64,1) 100%);
     box-sizing: border-box;
+    font-size: 30pt;
   }
   
   
@@ -52,14 +72,19 @@
   
   
   .titulo{
- 
+  /*
+      text-align: center;
+      font-size: 5em;
+      text-shadow: -10px -10px -30px -15px red;
+      margin: 0 0 1em ;
+      clear: left;*/
       text-align: center; 
       font-family: Comic Sans MS; 
       font-weight:bold; 
       font-size: 100px; 
       color: #EBD758; 
-      text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;  #414D68,   #414D68,   #414D68,   #414D68
-  
+      text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;  #414D68,  7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+  }
   .imagen1{
       width: 520px;
       float:left;
@@ -74,8 +99,7 @@
   #ver{
    padding-top: 300px;
     text-align: center; 
-    /*font-family: Arial Black; */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial Black; 
     font-weight: bold; 
     font-size: 100px; 
     color: #fff; 
@@ -211,5 +235,4 @@
     top: calc(100% + 10px); /* Muestra el cuadro debajo de la imagen */
   
   
-}
-
+  /*
