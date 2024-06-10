@@ -5,8 +5,12 @@
     position: relative;
   } 
   body{
-    background-image: url(img/peublos/Tlaxco/ft.webp);
+    background-image: url(img/peublos/Tlaxco/ft.jpg);
+    background-color: lightblue;
+  
   }
+
+
   .banner img {
     border: 5px solid black;
     width: 100%;
