@@ -28,6 +28,7 @@ body{
 /**/
 #txt{
   border: 5px solid ;
+  
   padding-left: 50pt;
   background: linear-gradient(90deg, rgba(231,10,10,1) 0%, rgba(248,242,10,1) 25%, rgba(16,234,189,1) 63%, rgba(253,131,64,1) 100%);
   box-sizing: border-box;
@@ -131,7 +132,20 @@ h3 {
   top: calc(100% + 10px); /* Muestra el cuadro debajo de la imagen */
   opacity: 1;
 }
-
+#ver1{
+   
+  text-align: center; 
+  font-family: Arial Black; 
+  font-weight: bold; 
+  font-size: 100px; 
+  color: #fff; 
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+#mapa1{
+  text-align: center;
+  clear:;
+  position: relative;
+}
 
 
 
