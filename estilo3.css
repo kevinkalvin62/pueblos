@@ -74,7 +74,8 @@
   #ver{
    padding-top: 300px;
     text-align: center; 
-    font-family: Arial Black; 
+    /*font-family: Arial Black; */
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold; 
     font-size: 100px; 
     color: #fff; 
