@@ -31,10 +31,11 @@
   }
   /**/
   #txt{
+    font-size: xx-large;
     border: 5px solid ;
     padding-left: 50pt;
     padding: 50pt;
-    background: linear-gradient(90deg, rgba(231,10,10,1) 0%, rgba(248,242,10,1) 25%, rgba(16,234,189,1) 63%, rgba(253,131,64,1) 100%);
+    background: linear-gradient(90deg, rgb(134, 81, 81) 0%, rgba(248,242,10,1) 25%, rgba(16,234,189,1) 63%);
     box-sizing: border-box;
   }
   
@@ -47,6 +48,11 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+  }
+  #caca td{
+    padding: 10px;
+    border-radius:5px;
+    border: #fff;
   }
   
   
