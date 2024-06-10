@@ -34,7 +34,6 @@
   #txt{
     border: 5px solid ;
     padding-left: 50pt;
-    padding: 50pt;
     background: linear-gradient(90deg, rgba(231,10,10,1) 0%, rgba(248,242,10,1) 25%, rgba(16,234,189,1) 63%, rgba(253,131,64,1) 100%);
     box-sizing: border-box;
   }
