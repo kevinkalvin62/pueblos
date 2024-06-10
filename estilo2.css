@@ -75,7 +75,10 @@ body{
 
 
 
-
+#container tr td img{
+  width: 20%;
+  height: 20%;
+}
 
 .container {
 
@@ -90,8 +93,6 @@ body{
 }
 
 .image-container {
-
-
   position: relative;
   display: inline-block;
   margin: 10px;
