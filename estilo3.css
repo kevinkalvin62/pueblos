@@ -34,6 +34,7 @@
   #txt{
     border: 5px solid ;
     padding-left: 50pt;
+    padding: 50pt;
     background: linear-gradient(90deg, rgba(231,10,10,1) 0%, rgba(248,242,10,1) 25%, rgba(16,234,189,1) 63%, rgba(253,131,64,1) 100%);
     box-sizing: border-box;
   }
@@ -51,12 +52,7 @@
   
   
   .titulo{
-  /*
-      text-align: center;
-      font-size: 5em;
-      text-shadow: -10px -10px -30px -15px red;
-      margin: 0 0 1em ;
-      clear: left;*/
+ 
       text-align: center; 
       font-family: Comic Sans MS; 
       font-weight:bold; 
@@ -78,7 +74,8 @@
   #ver{
    padding-top: 300px;
     text-align: center; 
-    font-family: Arial Black; 
+    /*font-family: Arial Black; */
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold; 
     font-size: 100px; 
     color: #fff; 
